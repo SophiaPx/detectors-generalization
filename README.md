@@ -1,20 +1,20 @@
-# On the Zero-Shot Generalization of Machine-Generated Text Detectors
-![](pics/main_res.png)
+## On the Zero-Shot Generalization of Machine-Generated Text Detectors
+![pic](pics/main_res.png)
 This repository provides dataset and codes included in the EMNLP-finding 2023 paper [On the Zero-Shot Generalization of Machine-Generated Text Detectors](https://arxiv.org/abs/2310.05165)
 
 Authors: Xiao Pu, Jingyu Zhang, Xiaochuang Han, Yulia Tsvetkov and Tianxing He
 
 ## Quick Links
-- Dataset
-    - Domains
-    - Models
-    - Hyperparameters
+- [Dataset](##)
+    - Domains(###of 3 domains)
+    - Models(###from 13 LMs)
+    - Hyperparameters(###Hyperparameters)
 
 
 ## A Dataset of Machine-Generated Text
 Our introduced dataset is under this [directory](https://github.com/SophiaPx/detectors-generalization/tree/main/generation_data).
 
-Each subset contains 5000 real-world human-written samples (labelled as 1) and 5000 machine-generated samples (labelled as 0), with a train/dev/test split ratio of 8:1:1.
+Each subset contains 5,000 real-world human-written samples (labelled as 1) and 5,000 machine-generated samples (labelled as 0), with a train/dev/test split ratio of 8:1:1.
 
 ### of 3 domains:
 - news: [RealNews](https://huggingface.co/datasets/c4/viewer/realnewslike)
